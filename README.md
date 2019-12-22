@@ -1,5 +1,5 @@
 # pi-remounter
-systemd service that automatically re-mount shares that were not mounted on boot
+systemd service that automatically re-mount mounts that were not mounted on boot
 
 Configuration
 -------------
