@@ -10,7 +10,7 @@ Installation
 ------------
 ```
 sudo mkdir -p /opt/remounter/bin
-sudo cp remount.sh /opt/remounter/bin/remount/sh
+sudo cp remount.sh /opt/remounter/bin/remount.sh
 sudo cp remounter.service /etc/systemd/system/remounter.service
 sudo systemctl daemon-reload
 sudo systemctl enable remounter
