@@ -6,7 +6,8 @@ SLEEP_TIME=60
 
 declare MONITORED_FS=(
 	"/mnt/nas/downloads"
-	"/mnt/nas/media"
+	"/mnt/nas/multimedia"
+	"/mnt/hdd"
 )
 
 remount () {
