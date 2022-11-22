@@ -1,5 +1,9 @@
 [Unit]
 Description=FS remounter service
+Requires=network.target
+After=network.target
+Requires=remote-fs.target
+After=remote-fs.target
 
 [Service]
 Type=simple
